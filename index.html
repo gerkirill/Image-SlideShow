@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <link href="css.css" rel="stylesheet">
+  <link href="css.css" rel="stylesheet">
   <meta charset="UTF-8">
   <title>Карусель картинок</title>
   <!-- <meta http-equiv="refresh" content="4"> -->
@@ -10,15 +10,18 @@
     /* canvas { border: 5px solid #cacaca; } */
   </style>
 </head>
-
+ 
 <body>
   <center>
+    <!-- <form name="forma"> -->
+    <textarea class="inputList" id="inputList">Input array of SRS images</textarea>
+    <br>
+    <input id="time" onchange="changeTime();" value="5" >
+    <br>
+    <input id="button" type="button" value="Run!" onClick="run();">
+    <!-- </form> -->
     <h1>
-      <form name="forma">
-        <textarea class="inputList" id="inputList">Input array of SRS images</textarea>
-        <br>
-        <input type="button" value="Run!" onClick="run();">
-      </form>
+
     </h1>
   </center>
   <script src="script.js"></script>
